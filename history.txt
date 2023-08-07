@@ -1,0 +1,60 @@
+   0 whoami
+   1 pwd
+   2 ls
+   3 ls -al
+   4 cd ..
+   5 ls -l
+   6 cd home
+   7 mkdir user
+   8 ls
+   9 cd user
+  10 mkdir task
+  11 ls
+  12 cd task
+  13 touch file.txt
+  14 ls
+  15 cd ..
+  16 tree
+  17 mkdir user1
+  18 mkdir user2
+  19 tree
+  20 cd user1
+  21 mkdir task1
+  22 ls
+  23 cd task1
+  24 touch file1.txt
+  25 ls
+  26 touch file.txt
+  27 ls
+  28 cd /home
+  29 cd /home/user1/task1
+  30 cd /
+  31 mkdir /home/user3
+  32 mkdir /home/user3/task3
+  33 touch /home/user3/task3/file3.txt
+  34 tree /home
+  35 mkdir /home/user2/task2
+  36 touch /home/user2/task2/file2.txt
+  37 tree /home
+  38 clear
+  39 tree /home
+  40 cd /
+  41 mkdir -p /home/user4/task4
+  42 touch /home/user4/task4/file4.txt
+  43 mkdir -p /home/user5/task5 touch /home/user5/task5/file5.txt
+  44 tree /home
+  45 cd /home/user5/task5
+  46 ls -R
+  47 cd /
+  48 cd /home/user5/task5
+  49 rm file5.txt
+  50 cd /
+  51 cp /home/user/task/file.txt /opt/file.txt
+  52 cp /home/user1/task1/file1.txt /opt/newfile.txt
+  53 tree /opt
+  54 cp -r /home/user1/task1/ /opt
+  55 tree /opt
+  56 mv /home/user2/task2/file2.txt /opt/newfile.txt
+  57 rm -rf /home/user3
+  58 history
+  59 history > history.txt 
