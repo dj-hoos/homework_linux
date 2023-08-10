@@ -1,0 +1,34 @@
+   0 whoami
+   1 pwd
+   2 mkdir -p /home/animals/dogs && mkdir -p /home/animals/cats && mkdir -p /home/animals/fish
+   3 cd home
+   4 ls -al
+   5 cd ..
+   6 ls -al
+   7 tree /home
+   8 touch /home/animals/dogs/pluto && touch /home/animals/cats/garfield && touch /home/animals/fish/nemo
+   9 tree /home
+  10 cd /home/animals/cats
+  11 ls -al
+  12 cd /home
+  13 mkdir planets
+  14 tree /home
+  15 touch /opt/Mercury && touch /opt/Venus && touch /opt/Mars && touch /opt/Jupiter
+  16 tree /opt
+  17 cd /opt
+  18 mv Mercury Venus Mars Jupiter /home/planets/
+  19 tree home
+  20 tree /home
+  21 tree /opt
+  22 touch /tmp/adam
+  23 mkdir -p /home/humans
+  24 cp /tmp/adam /home/humans/
+  25 tree /home
+  26 touch /tmp/evA
+  27 mv /tmp/evA /opt/eve
+  28 mv /opt/eve /home/humans/
+  29 tree /home
+  30 cd /home/humans/
+  31 ls -al
+  32 cd /
+  33 history > historyhw1.txt
