@@ -1,0 +1,27 @@
+   0 mkdir -p /home/user/start
+   1 tree /home
+   2 touch /home/user/start/1.txt
+   3 echo "Start" > /home/user/start/1.txt
+   4 tree /home
+   5 date >> /home/user/start/1.txt
+   6 mkdir -p /opt/task
+   7 cp /home/user/start/1.txt /opt/task/start.txt
+   8 tree /opt
+   9 tree /home
+  10 find / -type f | tail -n 4 >> /opt/task/start.txt
+  11 mkdir -p /tmp/testnew
+  12 tree /tmp
+  13 cp -r /opt/task /tmp/testnew
+  14 tree /tmp
+  15 ls/
+  16 ls /
+  17 ls -la /
+  18 tree usr
+  19 tree /usr
+  20 ls -la /usr
+  21 tree /opt
+  22 cat /opt/temu/readme.txt >> /tmp/testnew/task/start.txt
+  23 rm -r /opt/task
+  24 tree /opt
+  25 tree /tmp
+  26 history > history.txt
